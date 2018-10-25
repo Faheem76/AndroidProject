@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.faheemfcm.finalproject.InstagramFragment">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webViewInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </WebView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBarInsta"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.faheemfcm.finalproject.YoutubeFragment">
+
+
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerHorizontal="true" >
+
+
+    </WebView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBarYou"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+</FrameLayout>

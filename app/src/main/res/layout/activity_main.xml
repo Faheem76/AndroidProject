@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b30a7a"
+    tools:context="com.example.faheemfcm.finalproject.MainActivity">
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical">
+
+
+
+      <LinearLayout
+          android:layout_marginBottom="30dp"
+          android:layout_width="300dp"
+          android:layout_height="470dp"
+          android:background="#FFF"
+          android:gravity="center">
+
+          <LinearLayout
+              android:layout_width="250dp"
+              android:layout_height="200dp"
+              android:layout_marginBottom="105dp"
+              android:background="#FFFF00"
+              android:gravity="center"
+              android:orientation="vertical">
+              <ImageButton
+                  android:layout_marginBottom="16dp"
+
+                  android:id="@+id/Site"
+                  android:layout_width="120dp"
+                  android:layout_height="120dp"
+                  android:background="@drawable/world"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Smart App"
+                  android:textSize="20sp"
+                  android:textColor="#000"
+                  android:textStyle="bold"/>
+
+          </LinearLayout>
+
+
+
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="#C6FF00"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/game"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/games"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap Icon Button"
+        android:textSize="15sp"/>
+
+
+
+
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
